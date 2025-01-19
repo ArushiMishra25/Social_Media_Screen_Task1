@@ -14,7 +14,7 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://zoopi122006:psvo9ch9B93xsV9P@cluster0.v50kp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://<User_name>:<password>.v50kp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"//Have Put this important info in .env file to keep it safe
   )
   .then(() => {
     console.log("Connected to MongoDB");
